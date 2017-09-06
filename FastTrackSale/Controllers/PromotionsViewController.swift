@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  PromotionsViewController.swift
 //  FastTrackSale
 //
 //  Created by Bikash Sukla Das on 03/09/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class PromotionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

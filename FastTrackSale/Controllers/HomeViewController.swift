@@ -22,6 +22,11 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //Adding tap gesture into the customer profile pic
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(profilePicTapped))
+        ivCustomerProfilePic?.isUserInteractionEnabled = true
+        ivCustomerProfilePic?.addGestureRecognizer(tapGestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,11 +34,32 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Profile setting page navigation
+    @objc func profilePicTapped() {
+        print("Profile pic tapped")
+    }
+    
     //MARK:- Buttons actions
     
     @IBAction func logoutPressed(_sender: UIButton){
         
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func btnPromotionsPressed(_sender: UIButton){
+        
+    }
+    
+    @IBAction func btnCartPressed(_sender: UIButton){
+        
+    }
+    
+    @IBAction func btnTrackOrdersPressed(_sender: UIButton){
+        
+    }
+    
+    @IBAction func btnOrderHistoryPressed(_sender: UIButton){
+        
     }
     
 

@@ -7,9 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6A942A1F5FED8E009ED956 /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE01F5F257500B12E37 /* arrowDown.png */; };
+		ED6A942B1F5FED8E009ED956 /* calendarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEEE1F5F259D00B12E37 /* calendarIcon.png */; };
+		ED6A942C1F5FED8E009ED956 /* cartActive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED41F5F256300B12E37 /* cartActive.png */; };
+		ED6A942D1F5FED8E009ED956 /* cartInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE91F5F258E00B12E37 /* cartInactive.png */; };
+		ED6A942E1F5FED8E009ED956 /* delivered.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED51F5F256300B12E37 /* delivered.png */; };
+		ED6A942F1F5FED8E009ED956 /* deliveredIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEEF1F5F25A000B12E37 /* deliveredIcon.png */; };
+		ED6A94301F5FED8E009ED956 /* editIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF61F5F25B700B12E37 /* editIcon.png */; };
+		ED6A94311F5FED8E009ED956 /* headerBar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE41F5F257F00B12E37 /* headerBar.png */; };
+		ED6A94321F5FED8E009ED956 /* history_LMBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF21F5F25AA00B12E37 /* history_LMBlue.png */; };
+		ED6A94331F5FED8E009ED956 /* history_LMRed.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED61F5F256400B12E37 /* history_LMRed.png */; };
+		ED6A94341F5FED8E009ED956 /* history_MarlboroFuse.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF51F5F25B400B12E37 /* history_MarlboroFuse.png */; };
+		ED6A94351F5FED8E009ED956 /* L&M_RegularCut_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDD1F5F256C00B12E37 /* L&M_RegularCut_Blue.png */; };
+		ED6A94361F5FED8E009ED956 /* L&M_RegularCut_Red.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF71F5F25BA00B12E37 /* L&M_RegularCut_Red.png */; };
+		ED6A94371F5FED8E009ED956 /* loginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF91F5F25C200B12E37 /* loginBackground.png */; };
+		ED6A94381F5FED8E009ED956 /* loginBox.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE61F5F258500B12E37 /* loginBox.png */; };
+		ED6A94391F5FED8E009ED956 /* logoFastTrack_small.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDB1F5F256700B12E37 /* logoFastTrack_small.png */; };
+		ED6A943A1F5FED8E009ED956 /* logoFastTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDA1F5F256600B12E37 /* logoFastTrack.png */; };
+		ED6A943B1F5FED8E009ED956 /* MarlboroBright.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEED1F5F259A00B12E37 /* MarlboroBright.png */; };
+		ED6A943C1F5FED8E009ED956 /* MarlboroFine.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFA1F5F25C600B12E37 /* MarlboroFine.png */; };
+		ED6A943D1F5FED8E009ED956 /* MarlboroFuse.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF01F5F25A300B12E37 /* MarlboroFuse.png */; };
+		ED6A943E1F5FED8E009ED956 /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED71F5F256400B12E37 /* navBar.png */; };
+		ED6A943F1F5FED8E009ED956 /* numbercircleActive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF41F5F25B000B12E37 /* numbercircleActive.png */; };
+		ED6A94401F5FED8E009ED956 /* numbercircleInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED91F5F256500B12E37 /* numbercircleInactive.png */; };
+		ED6A94411F5FED8E009ED956 /* ordered_approved.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DED81F5F256500B12E37 /* ordered_approved.png */; };
+		ED6A94421F5FED8E009ED956 /* orderhistoryActive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF81F5F25BE00B12E37 /* orderhistoryActive.png */; };
+		ED6A94431F5FED8E009ED956 /* orderhistoryInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFD1F5F25D000B12E37 /* orderhistoryInactive.png */; };
+		ED6A94441F5FED8E009ED956 /* packed.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE71F5F258800B12E37 /* packed.png */; };
+		ED6A94451F5FED8E009ED956 /* passwordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFB1F5F25C900B12E37 /* passwordIcon.png */; };
+		ED6A94461F5FED8E009ED956 /* promo_MarlboroClove.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDE1F5F256F00B12E37 /* promo_MarlboroClove.png */; };
+		ED6A94471F5FED8E009ED956 /* promo_MarlboroIce.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF11F5F25A600B12E37 /* promo_MarlboroIce.png */; };
+		ED6A94481F5FED8E009ED956 /* promo_MarlboroMenthol.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEEB1F5F259400B12E37 /* promo_MarlboroMenthol.png */; };
+		ED6A94491F5FED8E009ED956 /* promo_NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDC1F5F256A00B12E37 /* promo_NextButton.png */; };
+		ED6A944A1F5FED8E009ED956 /* promoActive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEDF1F5F257200B12E37 /* promoActive.png */; };
+		ED6A944B1F5FED8E009ED956 /* promoInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE81F5F258B00B12E37 /* promoInactive.png */; };
+		ED6A944C1F5FED8E009ED956 /* shipped.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEF31F5F25AD00B12E37 /* shipped.png */; };
+		ED6A944D1F5FED8E009ED956 /* switchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE11F5F257700B12E37 /* switchButton.png */; };
+		ED6A944E1F5FED8E009ED956 /* switchCross.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEEA1F5F259100B12E37 /* switchCross.png */; };
+		ED6A944F1F5FED8E009ED956 /* switchTick.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE21F5F257A00B12E37 /* switchTick.png */; };
+		ED6A94501F5FED8E009ED956 /* trackLine.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFF1F5F25D800B12E37 /* trackLine.png */; };
+		ED6A94511F5FED8E009ED956 /* trackNode.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DF001F5F25DB00B12E37 /* trackNode.png */; };
+		ED6A94521F5FED8E009ED956 /* trackorderActive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE51F5F258200B12E37 /* trackorderActive.png */; };
+		ED6A94531F5FED8E009ED956 /* trackorderInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEE31F5F257D00B12E37 /* trackorderInactive.png */; };
+		ED6A94541F5FED8E009ED956 /* userIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEEC1F5F259700B12E37 /* userIcon.png */; };
+		ED6A94551F5FED8E009ED956 /* userPhoto_small.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFE1F5F25D400B12E37 /* userPhoto_small.png */; };
+		ED6A94561F5FED8E009ED956 /* userPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = ED86DEFC1F5F25CC00B12E37 /* userPhoto.png */; };
+		ED6A94581F600B63009ED956 /* TrackOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A94571F600B63009ED956 /* TrackOrdersViewController.swift */; };
+		ED6A945A1F600B80009ED956 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A94591F600B80009ED956 /* OrderHistoryViewController.swift */; };
+		ED6A945C1F602301009ED956 /* CustomerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A945B1F602301009ED956 /* CustomerProfileViewController.swift */; };
+		ED86DECF1F5F1FE600B12E37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DECE1F5F1FE600B12E37 /* MobileCoreServices.framework */; };
+		ED86DED11F5F1FF800B12E37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DED01F5F1FF800B12E37 /* UIKit.framework */; };
+		ED86DED31F5F200700B12E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DED21F5F200700B12E37 /* Foundation.framework */; };
 		EDF68F3C1F5BBEB800511EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3B1F5BBEB800511EA1 /* AppDelegate.swift */; };
-		EDF68F3E1F5BBEB800511EA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3D1F5BBEB800511EA1 /* FirstViewController.swift */; };
-		EDF68F401F5BBEB800511EA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3F1F5BBEB800511EA1 /* SecondViewController.swift */; };
+		EDF68F3E1F5BBEB800511EA1 /* PromotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3D1F5BBEB800511EA1 /* PromotionsViewController.swift */; };
+		EDF68F401F5BBEB800511EA1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3F1F5BBEB800511EA1 /* CartViewController.swift */; };
 		EDF68F431F5BBEB800511EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF68F411F5BBEB800511EA1 /* Main.storyboard */; };
 		EDF68F451F5BBEB800511EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF68F441F5BBEB800511EA1 /* Assets.xcassets */; };
 		EDF68F481F5BBEB800511EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF68F461F5BBEB800511EA1 /* LaunchScreen.storyboard */; };
@@ -29,10 +80,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED6A94571F600B63009ED956 /* TrackOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrdersViewController.swift; sourceTree = "<group>"; };
+		ED6A94591F600B80009ED956 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		ED6A945B1F602301009ED956 /* CustomerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileViewController.swift; sourceTree = "<group>"; };
+		ED86DECE1F5F1FE600B12E37 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ED86DED01F5F1FF800B12E37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED86DED21F5F200700B12E37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED86DED41F5F256300B12E37 /* cartActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartActive.png; sourceTree = "<group>"; };
+		ED86DED51F5F256300B12E37 /* delivered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivered.png; sourceTree = "<group>"; };
+		ED86DED61F5F256400B12E37 /* history_LMRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_LMRed.png; sourceTree = "<group>"; };
+		ED86DED71F5F256400B12E37 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
+		ED86DED81F5F256500B12E37 /* ordered_approved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordered_approved.png; sourceTree = "<group>"; };
+		ED86DED91F5F256500B12E37 /* numbercircleInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numbercircleInactive.png; sourceTree = "<group>"; };
+		ED86DEDA1F5F256600B12E37 /* logoFastTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoFastTrack.png; sourceTree = "<group>"; };
+		ED86DEDB1F5F256700B12E37 /* logoFastTrack_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoFastTrack_small.png; sourceTree = "<group>"; };
+		ED86DEDC1F5F256A00B12E37 /* promo_NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_NextButton.png; sourceTree = "<group>"; };
+		ED86DEDD1F5F256C00B12E37 /* L&M_RegularCut_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L&M_RegularCut_Blue.png"; sourceTree = "<group>"; };
+		ED86DEDE1F5F256F00B12E37 /* promo_MarlboroClove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroClove.png; sourceTree = "<group>"; };
+		ED86DEDF1F5F257200B12E37 /* promoActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promoActive.png; sourceTree = "<group>"; };
+		ED86DEE01F5F257500B12E37 /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
+		ED86DEE11F5F257700B12E37 /* switchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchButton.png; sourceTree = "<group>"; };
+		ED86DEE21F5F257A00B12E37 /* switchTick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchTick.png; sourceTree = "<group>"; };
+		ED86DEE31F5F257D00B12E37 /* trackorderInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackorderInactive.png; sourceTree = "<group>"; };
+		ED86DEE41F5F257F00B12E37 /* headerBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerBar.png; sourceTree = "<group>"; };
+		ED86DEE51F5F258200B12E37 /* trackorderActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackorderActive.png; sourceTree = "<group>"; };
+		ED86DEE61F5F258500B12E37 /* loginBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBox.png; sourceTree = "<group>"; };
+		ED86DEE71F5F258800B12E37 /* packed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = packed.png; sourceTree = "<group>"; };
+		ED86DEE81F5F258B00B12E37 /* promoInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promoInactive.png; sourceTree = "<group>"; };
+		ED86DEE91F5F258E00B12E37 /* cartInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartInactive.png; sourceTree = "<group>"; };
+		ED86DEEA1F5F259100B12E37 /* switchCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchCross.png; sourceTree = "<group>"; };
+		ED86DEEB1F5F259400B12E37 /* promo_MarlboroMenthol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroMenthol.png; sourceTree = "<group>"; };
+		ED86DEEC1F5F259700B12E37 /* userIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userIcon.png; sourceTree = "<group>"; };
+		ED86DEED1F5F259A00B12E37 /* MarlboroBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroBright.png; sourceTree = "<group>"; };
+		ED86DEEE1F5F259D00B12E37 /* calendarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarIcon.png; sourceTree = "<group>"; };
+		ED86DEEF1F5F25A000B12E37 /* deliveredIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deliveredIcon.png; sourceTree = "<group>"; };
+		ED86DEF01F5F25A300B12E37 /* MarlboroFuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroFuse.png; sourceTree = "<group>"; };
+		ED86DEF11F5F25A600B12E37 /* promo_MarlboroIce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroIce.png; sourceTree = "<group>"; };
+		ED86DEF21F5F25AA00B12E37 /* history_LMBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_LMBlue.png; sourceTree = "<group>"; };
+		ED86DEF31F5F25AD00B12E37 /* shipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipped.png; sourceTree = "<group>"; };
+		ED86DEF41F5F25B000B12E37 /* numbercircleActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numbercircleActive.png; sourceTree = "<group>"; };
+		ED86DEF51F5F25B400B12E37 /* history_MarlboroFuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_MarlboroFuse.png; sourceTree = "<group>"; };
+		ED86DEF61F5F25B700B12E37 /* editIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editIcon.png; sourceTree = "<group>"; };
+		ED86DEF71F5F25BA00B12E37 /* L&M_RegularCut_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L&M_RegularCut_Red.png"; sourceTree = "<group>"; };
+		ED86DEF81F5F25BE00B12E37 /* orderhistoryActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderhistoryActive.png; sourceTree = "<group>"; };
+		ED86DEF91F5F25C200B12E37 /* loginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackground.png; sourceTree = "<group>"; };
+		ED86DEFA1F5F25C600B12E37 /* MarlboroFine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroFine.png; sourceTree = "<group>"; };
+		ED86DEFB1F5F25C900B12E37 /* passwordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwordIcon.png; sourceTree = "<group>"; };
+		ED86DEFC1F5F25CC00B12E37 /* userPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPhoto.png; sourceTree = "<group>"; };
+		ED86DEFD1F5F25D000B12E37 /* orderhistoryInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderhistoryInactive.png; sourceTree = "<group>"; };
+		ED86DEFE1F5F25D400B12E37 /* userPhoto_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPhoto_small.png; sourceTree = "<group>"; };
+		ED86DEFF1F5F25D800B12E37 /* trackLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackLine.png; sourceTree = "<group>"; };
+		ED86DF001F5F25DB00B12E37 /* trackNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackNode.png; sourceTree = "<group>"; };
 		EDF68F381F5BBEB800511EA1 /* FastTrackSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastTrackSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF68F3B1F5BBEB800511EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDF68F3D1F5BBEB800511EA1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EDF68F3F1F5BBEB800511EA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EDF68F3D1F5BBEB800511EA1 /* PromotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewController.swift; sourceTree = "<group>"; };
+		EDF68F3F1F5BBEB800511EA1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		EDF68F421F5BBEB800511EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDF68F441F5BBEB800511EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF68F471F5BBEB800511EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,51 +144,6 @@
 		EDF68F541F5BBEB800511EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF68F601F5BC20000511EA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EDF68F8F1F5BC70A00511EA1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		EDF68F911F5BD49100511EA1 /* cartActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartActive.png; sourceTree = "<group>"; };
-		EDF68F921F5BD49100511EA1 /* delivered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivered.png; sourceTree = "<group>"; };
-		EDF68F931F5BD49100511EA1 /* history_LMRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_LMRed.png; sourceTree = "<group>"; };
-		EDF68F941F5BD49100511EA1 /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBar.png; sourceTree = "<group>"; };
-		EDF68F951F5BD49100511EA1 /* ordered_approved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordered_approved.png; sourceTree = "<group>"; };
-		EDF68F961F5BD49100511EA1 /* numbercircleInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numbercircleInactive.png; sourceTree = "<group>"; };
-		EDF68F971F5BD49200511EA1 /* logoFastTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoFastTrack.png; sourceTree = "<group>"; };
-		EDF68F981F5BD49200511EA1 /* logoFastTrack_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoFastTrack_small.png; sourceTree = "<group>"; };
-		EDF68F991F5BD49200511EA1 /* promo_NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_NextButton.png; sourceTree = "<group>"; };
-		EDF68F9A1F5BD49200511EA1 /* L&M_RegularCut_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L&M_RegularCut_Blue.png"; sourceTree = "<group>"; };
-		EDF68F9B1F5BD49200511EA1 /* promo_MarlboroClove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroClove.png; sourceTree = "<group>"; };
-		EDF68F9C1F5BD49200511EA1 /* promoActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promoActive.png; sourceTree = "<group>"; };
-		EDF68F9D1F5BD49300511EA1 /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
-		EDF68F9E1F5BD49300511EA1 /* switchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchButton.png; sourceTree = "<group>"; };
-		EDF68F9F1F5BD49300511EA1 /* switchTick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchTick.png; sourceTree = "<group>"; };
-		EDF68FA01F5BD49400511EA1 /* trackorderInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackorderInactive.png; sourceTree = "<group>"; };
-		EDF68FA11F5BD49400511EA1 /* headerBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerBar.png; sourceTree = "<group>"; };
-		EDF68FA21F5BD49400511EA1 /* trackorderActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackorderActive.png; sourceTree = "<group>"; };
-		EDF68FA31F5BD49400511EA1 /* loginBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBox.png; sourceTree = "<group>"; };
-		EDF68FA41F5BD49500511EA1 /* packed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = packed.png; sourceTree = "<group>"; };
-		EDF68FA51F5BD49500511EA1 /* promoInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promoInactive.png; sourceTree = "<group>"; };
-		EDF68FA61F5BD49600511EA1 /* cartInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartInactive.png; sourceTree = "<group>"; };
-		EDF68FA71F5BD49600511EA1 /* switchCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchCross.png; sourceTree = "<group>"; };
-		EDF68FA81F5BD49700511EA1 /* promo_MarlboroMenthol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroMenthol.png; sourceTree = "<group>"; };
-		EDF68FA91F5BD49800511EA1 /* userIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userIcon.png; sourceTree = "<group>"; };
-		EDF68FAA1F5BD49900511EA1 /* MarlboroBright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroBright.png; sourceTree = "<group>"; };
-		EDF68FAB1F5BD49A00511EA1 /* calendarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarIcon.png; sourceTree = "<group>"; };
-		EDF68FAC1F5BD49A00511EA1 /* deliveredIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deliveredIcon.png; sourceTree = "<group>"; };
-		EDF68FAD1F5BD49B00511EA1 /* MarlboroFuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroFuse.png; sourceTree = "<group>"; };
-		EDF68FAE1F5BD49C00511EA1 /* promo_MarlboroIce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = promo_MarlboroIce.png; sourceTree = "<group>"; };
-		EDF68FAF1F5BD49C00511EA1 /* history_LMBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_LMBlue.png; sourceTree = "<group>"; };
-		EDF68FB01F5BD49D00511EA1 /* shipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipped.png; sourceTree = "<group>"; };
-		EDF68FB11F5BD49E00511EA1 /* numbercircleActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numbercircleActive.png; sourceTree = "<group>"; };
-		EDF68FB21F5BD49F00511EA1 /* history_MarlboroFuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_MarlboroFuse.png; sourceTree = "<group>"; };
-		EDF68FB31F5BD4A000511EA1 /* editIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editIcon.png; sourceTree = "<group>"; };
-		EDF68FB41F5BD4A100511EA1 /* L&M_RegularCut_Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L&M_RegularCut_Red.png"; sourceTree = "<group>"; };
-		EDF68FB51F5BD4A200511EA1 /* orderhistoryActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderhistoryActive.png; sourceTree = "<group>"; };
-		EDF68FB61F5BD4A300511EA1 /* loginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackground.png; sourceTree = "<group>"; };
-		EDF68FB71F5BD4A400511EA1 /* MarlboroFine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarlboroFine.png; sourceTree = "<group>"; };
-		EDF68FB81F5BD4A500511EA1 /* passwordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwordIcon.png; sourceTree = "<group>"; };
-		EDF68FB91F5BD4A600511EA1 /* userPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPhoto.png; sourceTree = "<group>"; };
-		EDF68FBA1F5BD4A600511EA1 /* orderhistoryInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderhistoryInactive.png; sourceTree = "<group>"; };
-		EDF68FBB1F5BD4A700511EA1 /* userPhoto_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPhoto_small.png; sourceTree = "<group>"; };
-		EDF68FBC1F5BD4A800511EA1 /* trackLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackLine.png; sourceTree = "<group>"; };
-		EDF68FBD1F5BD4A900511EA1 /* trackNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackNode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +151,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED86DED31F5F200700B12E37 /* Foundation.framework in Frameworks */,
+				ED86DED11F5F1FF800B12E37 /* UIKit.framework in Frameworks */,
+				ED86DECF1F5F1FE600B12E37 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,12 +167,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED86DECD1F5F1FE500B12E37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED86DED21F5F200700B12E37 /* Foundation.framework */,
+				ED86DED01F5F1FF800B12E37 /* UIKit.framework */,
+				ED86DECE1F5F1FE600B12E37 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDF68F2F1F5BBEB800511EA1 = {
 			isa = PBXGroup;
 			children = (
 				EDF68F3A1F5BBEB800511EA1 /* FastTrackSale */,
 				EDF68F511F5BBEB800511EA1 /* FastTrackSaleTests */,
 				EDF68F391F5BBEB800511EA1 /* Products */,
+				ED86DECD1F5F1FE500B12E37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,8 +223,11 @@
 				EDF68F3B1F5BBEB800511EA1 /* AppDelegate.swift */,
 				EDF68F601F5BC20000511EA1 /* LoginViewController.swift */,
 				EDF68F8F1F5BC70A00511EA1 /* HomeViewController.swift */,
-				EDF68F3D1F5BBEB800511EA1 /* FirstViewController.swift */,
-				EDF68F3F1F5BBEB800511EA1 /* SecondViewController.swift */,
+				EDF68F3D1F5BBEB800511EA1 /* PromotionsViewController.swift */,
+				EDF68F3F1F5BBEB800511EA1 /* CartViewController.swift */,
+				ED6A94571F600B63009ED956 /* TrackOrdersViewController.swift */,
+				ED6A94591F600B80009ED956 /* OrderHistoryViewController.swift */,
+				ED6A945B1F602301009ED956 /* CustomerProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,51 +244,51 @@
 		EDF68F5F1F5BBF5600511EA1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				EDF68F9D1F5BD49300511EA1 /* arrowDown.png */,
-				EDF68FAB1F5BD49A00511EA1 /* calendarIcon.png */,
-				EDF68F911F5BD49100511EA1 /* cartActive.png */,
-				EDF68FA61F5BD49600511EA1 /* cartInactive.png */,
-				EDF68F921F5BD49100511EA1 /* delivered.png */,
-				EDF68FAC1F5BD49A00511EA1 /* deliveredIcon.png */,
-				EDF68FB31F5BD4A000511EA1 /* editIcon.png */,
-				EDF68FA11F5BD49400511EA1 /* headerBar.png */,
-				EDF68FAF1F5BD49C00511EA1 /* history_LMBlue.png */,
-				EDF68F931F5BD49100511EA1 /* history_LMRed.png */,
-				EDF68FB21F5BD49F00511EA1 /* history_MarlboroFuse.png */,
-				EDF68F9A1F5BD49200511EA1 /* L&M_RegularCut_Blue.png */,
-				EDF68FB41F5BD4A100511EA1 /* L&M_RegularCut_Red.png */,
-				EDF68FB61F5BD4A300511EA1 /* loginBackground.png */,
-				EDF68FA31F5BD49400511EA1 /* loginBox.png */,
-				EDF68F981F5BD49200511EA1 /* logoFastTrack_small.png */,
-				EDF68F971F5BD49200511EA1 /* logoFastTrack.png */,
-				EDF68FAA1F5BD49900511EA1 /* MarlboroBright.png */,
-				EDF68FB71F5BD4A400511EA1 /* MarlboroFine.png */,
-				EDF68FAD1F5BD49B00511EA1 /* MarlboroFuse.png */,
-				EDF68F941F5BD49100511EA1 /* navBar.png */,
-				EDF68FB11F5BD49E00511EA1 /* numbercircleActive.png */,
-				EDF68F961F5BD49100511EA1 /* numbercircleInactive.png */,
-				EDF68F951F5BD49100511EA1 /* ordered_approved.png */,
-				EDF68FB51F5BD4A200511EA1 /* orderhistoryActive.png */,
-				EDF68FBA1F5BD4A600511EA1 /* orderhistoryInactive.png */,
-				EDF68FA41F5BD49500511EA1 /* packed.png */,
-				EDF68FB81F5BD4A500511EA1 /* passwordIcon.png */,
-				EDF68F9B1F5BD49200511EA1 /* promo_MarlboroClove.png */,
-				EDF68FAE1F5BD49C00511EA1 /* promo_MarlboroIce.png */,
-				EDF68FA81F5BD49700511EA1 /* promo_MarlboroMenthol.png */,
-				EDF68F991F5BD49200511EA1 /* promo_NextButton.png */,
-				EDF68F9C1F5BD49200511EA1 /* promoActive.png */,
-				EDF68FA51F5BD49500511EA1 /* promoInactive.png */,
-				EDF68FB01F5BD49D00511EA1 /* shipped.png */,
-				EDF68F9E1F5BD49300511EA1 /* switchButton.png */,
-				EDF68FA71F5BD49600511EA1 /* switchCross.png */,
-				EDF68F9F1F5BD49300511EA1 /* switchTick.png */,
-				EDF68FBC1F5BD4A800511EA1 /* trackLine.png */,
-				EDF68FBD1F5BD4A900511EA1 /* trackNode.png */,
-				EDF68FA21F5BD49400511EA1 /* trackorderActive.png */,
-				EDF68FA01F5BD49400511EA1 /* trackorderInactive.png */,
-				EDF68FA91F5BD49800511EA1 /* userIcon.png */,
-				EDF68FBB1F5BD4A700511EA1 /* userPhoto_small.png */,
-				EDF68FB91F5BD4A600511EA1 /* userPhoto.png */,
+				ED86DEE01F5F257500B12E37 /* arrowDown.png */,
+				ED86DEEE1F5F259D00B12E37 /* calendarIcon.png */,
+				ED86DED41F5F256300B12E37 /* cartActive.png */,
+				ED86DEE91F5F258E00B12E37 /* cartInactive.png */,
+				ED86DED51F5F256300B12E37 /* delivered.png */,
+				ED86DEEF1F5F25A000B12E37 /* deliveredIcon.png */,
+				ED86DEF61F5F25B700B12E37 /* editIcon.png */,
+				ED86DEE41F5F257F00B12E37 /* headerBar.png */,
+				ED86DEF21F5F25AA00B12E37 /* history_LMBlue.png */,
+				ED86DED61F5F256400B12E37 /* history_LMRed.png */,
+				ED86DEF51F5F25B400B12E37 /* history_MarlboroFuse.png */,
+				ED86DEDD1F5F256C00B12E37 /* L&M_RegularCut_Blue.png */,
+				ED86DEF71F5F25BA00B12E37 /* L&M_RegularCut_Red.png */,
+				ED86DEF91F5F25C200B12E37 /* loginBackground.png */,
+				ED86DEE61F5F258500B12E37 /* loginBox.png */,
+				ED86DEDB1F5F256700B12E37 /* logoFastTrack_small.png */,
+				ED86DEDA1F5F256600B12E37 /* logoFastTrack.png */,
+				ED86DEED1F5F259A00B12E37 /* MarlboroBright.png */,
+				ED86DEFA1F5F25C600B12E37 /* MarlboroFine.png */,
+				ED86DEF01F5F25A300B12E37 /* MarlboroFuse.png */,
+				ED86DED71F5F256400B12E37 /* navBar.png */,
+				ED86DEF41F5F25B000B12E37 /* numbercircleActive.png */,
+				ED86DED91F5F256500B12E37 /* numbercircleInactive.png */,
+				ED86DED81F5F256500B12E37 /* ordered_approved.png */,
+				ED86DEF81F5F25BE00B12E37 /* orderhistoryActive.png */,
+				ED86DEFD1F5F25D000B12E37 /* orderhistoryInactive.png */,
+				ED86DEE71F5F258800B12E37 /* packed.png */,
+				ED86DEFB1F5F25C900B12E37 /* passwordIcon.png */,
+				ED86DEDE1F5F256F00B12E37 /* promo_MarlboroClove.png */,
+				ED86DEF11F5F25A600B12E37 /* promo_MarlboroIce.png */,
+				ED86DEEB1F5F259400B12E37 /* promo_MarlboroMenthol.png */,
+				ED86DEDC1F5F256A00B12E37 /* promo_NextButton.png */,
+				ED86DEDF1F5F257200B12E37 /* promoActive.png */,
+				ED86DEE81F5F258B00B12E37 /* promoInactive.png */,
+				ED86DEF31F5F25AD00B12E37 /* shipped.png */,
+				ED86DEE11F5F257700B12E37 /* switchButton.png */,
+				ED86DEEA1F5F259100B12E37 /* switchCross.png */,
+				ED86DEE21F5F257A00B12E37 /* switchTick.png */,
+				ED86DEFF1F5F25D800B12E37 /* trackLine.png */,
+				ED86DF001F5F25DB00B12E37 /* trackNode.png */,
+				ED86DEE51F5F258200B12E37 /* trackorderActive.png */,
+				ED86DEE31F5F257D00B12E37 /* trackorderInactive.png */,
+				ED86DEEC1F5F259700B12E37 /* userIcon.png */,
+				ED86DEFE1F5F25D400B12E37 /* userPhoto_small.png */,
+				ED86DEFC1F5F25CC00B12E37 /* userPhoto.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -302,6 +376,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6A942A1F5FED8E009ED956 /* arrowDown.png in Resources */,
+				ED6A942B1F5FED8E009ED956 /* calendarIcon.png in Resources */,
+				ED6A942C1F5FED8E009ED956 /* cartActive.png in Resources */,
+				ED6A942D1F5FED8E009ED956 /* cartInactive.png in Resources */,
+				ED6A942E1F5FED8E009ED956 /* delivered.png in Resources */,
+				ED6A942F1F5FED8E009ED956 /* deliveredIcon.png in Resources */,
+				ED6A94301F5FED8E009ED956 /* editIcon.png in Resources */,
+				ED6A94311F5FED8E009ED956 /* headerBar.png in Resources */,
+				ED6A94321F5FED8E009ED956 /* history_LMBlue.png in Resources */,
+				ED6A94331F5FED8E009ED956 /* history_LMRed.png in Resources */,
+				ED6A94341F5FED8E009ED956 /* history_MarlboroFuse.png in Resources */,
+				ED6A94351F5FED8E009ED956 /* L&M_RegularCut_Blue.png in Resources */,
+				ED6A94361F5FED8E009ED956 /* L&M_RegularCut_Red.png in Resources */,
+				ED6A94371F5FED8E009ED956 /* loginBackground.png in Resources */,
+				ED6A94381F5FED8E009ED956 /* loginBox.png in Resources */,
+				ED6A94391F5FED8E009ED956 /* logoFastTrack_small.png in Resources */,
+				ED6A943A1F5FED8E009ED956 /* logoFastTrack.png in Resources */,
+				ED6A943B1F5FED8E009ED956 /* MarlboroBright.png in Resources */,
+				ED6A943C1F5FED8E009ED956 /* MarlboroFine.png in Resources */,
+				ED6A943D1F5FED8E009ED956 /* MarlboroFuse.png in Resources */,
+				ED6A943E1F5FED8E009ED956 /* navBar.png in Resources */,
+				ED6A943F1F5FED8E009ED956 /* numbercircleActive.png in Resources */,
+				ED6A94401F5FED8E009ED956 /* numbercircleInactive.png in Resources */,
+				ED6A94411F5FED8E009ED956 /* ordered_approved.png in Resources */,
+				ED6A94421F5FED8E009ED956 /* orderhistoryActive.png in Resources */,
+				ED6A94431F5FED8E009ED956 /* orderhistoryInactive.png in Resources */,
+				ED6A94441F5FED8E009ED956 /* packed.png in Resources */,
+				ED6A94451F5FED8E009ED956 /* passwordIcon.png in Resources */,
+				ED6A94461F5FED8E009ED956 /* promo_MarlboroClove.png in Resources */,
+				ED6A94471F5FED8E009ED956 /* promo_MarlboroIce.png in Resources */,
+				ED6A94481F5FED8E009ED956 /* promo_MarlboroMenthol.png in Resources */,
+				ED6A94491F5FED8E009ED956 /* promo_NextButton.png in Resources */,
+				ED6A944A1F5FED8E009ED956 /* promoActive.png in Resources */,
+				ED6A944B1F5FED8E009ED956 /* promoInactive.png in Resources */,
+				ED6A944C1F5FED8E009ED956 /* shipped.png in Resources */,
+				ED6A944D1F5FED8E009ED956 /* switchButton.png in Resources */,
+				ED6A944E1F5FED8E009ED956 /* switchCross.png in Resources */,
+				ED6A944F1F5FED8E009ED956 /* switchTick.png in Resources */,
+				ED6A94501F5FED8E009ED956 /* trackLine.png in Resources */,
+				ED6A94511F5FED8E009ED956 /* trackNode.png in Resources */,
+				ED6A94521F5FED8E009ED956 /* trackorderActive.png in Resources */,
+				ED6A94531F5FED8E009ED956 /* trackorderInactive.png in Resources */,
+				ED6A94541F5FED8E009ED956 /* userIcon.png in Resources */,
+				ED6A94551F5FED8E009ED956 /* userPhoto_small.png in Resources */,
+				ED6A94561F5FED8E009ED956 /* userPhoto.png in Resources */,
 				EDF68F481F5BBEB800511EA1 /* LaunchScreen.storyboard in Resources */,
 				EDF68F451F5BBEB800511EA1 /* Assets.xcassets in Resources */,
 				EDF68F431F5BBEB800511EA1 /* Main.storyboard in Resources */,
@@ -322,11 +441,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6A945C1F602301009ED956 /* CustomerProfileViewController.swift in Sources */,
 				EDF68F901F5BC70A00511EA1 /* HomeViewController.swift in Sources */,
 				EDF68F611F5BC20000511EA1 /* LoginViewController.swift in Sources */,
-				EDF68F401F5BBEB800511EA1 /* SecondViewController.swift in Sources */,
+				ED6A945A1F600B80009ED956 /* OrderHistoryViewController.swift in Sources */,
+				EDF68F401F5BBEB800511EA1 /* CartViewController.swift in Sources */,
+				ED6A94581F600B63009ED956 /* TrackOrdersViewController.swift in Sources */,
 				EDF68F3C1F5BBEB800511EA1 /* AppDelegate.swift in Sources */,
-				EDF68F3E1F5BBEB800511EA1 /* FirstViewController.swift in Sources */,
+				EDF68F3E1F5BBEB800511EA1 /* PromotionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

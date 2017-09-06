@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  CartViewController.swift
 //  FastTrackSale
 //
 //  Created by Bikash Sukla Das on 03/09/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class CartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
