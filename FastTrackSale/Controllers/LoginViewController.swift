@@ -42,18 +42,18 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         
         //if(tfUsername?.text == "abc@gmail.com") && (tfPassword?.text == "123456"){
         
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let homeControllerObj = storyBoard.instantiateViewController(withIdentifier: "HomeControllerSBID") as! HomeViewController
-        self.navigationController?.pushViewController(homeControllerObj, animated: true)
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let homeControllerObj = storyBoard.instantiateViewController(withIdentifier: "HomeControllerSBID") as! HomeViewController
+            self.navigationController?.pushViewController(homeControllerObj, animated: true)
+        /*}
+        else{
+            
+            let alertObj = UIAlertController(title: "Alert", message: "Invalid credentials! Please enter the correct credentials and try again.", preferredStyle: UIAlertControllerStyle.alert)
+            alertObj.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alertObj, animated: true, completion: nil)
+            
+        }*/
         
-        // }
-        //        else{
-        //
-        //             let alertObj = UIAlertController(title: "Alert", message: "Invalid credentials! Please enter the correct credentials.", preferredStyle: UIAlertControllerStyle.alert)
-        //             alertObj.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-        //             self.present(alertObj, animated: true, completion: nil)
-        //
-        //        }
     }
     
     

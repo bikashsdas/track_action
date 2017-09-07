@@ -58,6 +58,7 @@
 		ED86DECF1F5F1FE600B12E37 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DECE1F5F1FE600B12E37 /* MobileCoreServices.framework */; };
 		ED86DED11F5F1FF800B12E37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DED01F5F1FF800B12E37 /* UIKit.framework */; };
 		ED86DED31F5F200700B12E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86DED21F5F200700B12E37 /* Foundation.framework */; };
+		EDD8D5261F6131210089E1CA /* backArrowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD8D5251F6130FA0089E1CA /* backArrowWhite.png */; };
 		EDF68F3C1F5BBEB800511EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3B1F5BBEB800511EA1 /* AppDelegate.swift */; };
 		EDF68F3E1F5BBEB800511EA1 /* PromotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3D1F5BBEB800511EA1 /* PromotionsViewController.swift */; };
 		EDF68F401F5BBEB800511EA1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF68F3F1F5BBEB800511EA1 /* CartViewController.swift */; };
@@ -131,6 +132,7 @@
 		ED86DEFE1F5F25D400B12E37 /* userPhoto_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPhoto_small.png; sourceTree = "<group>"; };
 		ED86DEFF1F5F25D800B12E37 /* trackLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackLine.png; sourceTree = "<group>"; };
 		ED86DF001F5F25DB00B12E37 /* trackNode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackNode.png; sourceTree = "<group>"; };
+		EDD8D5251F6130FA0089E1CA /* backArrowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrowWhite.png; sourceTree = "<group>"; };
 		EDF68F381F5BBEB800511EA1 /* FastTrackSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastTrackSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF68F3B1F5BBEB800511EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF68F3D1F5BBEB800511EA1 /* PromotionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		EDF68F5F1F5BBF5600511EA1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EDD8D5251F6130FA0089E1CA /* backArrowWhite.png */,
 				ED86DEE01F5F257500B12E37 /* arrowDown.png */,
 				ED86DEEE1F5F259D00B12E37 /* calendarIcon.png */,
 				ED86DED41F5F256300B12E37 /* cartActive.png */,
@@ -376,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD8D5261F6131210089E1CA /* backArrowWhite.png in Resources */,
 				ED6A942A1F5FED8E009ED956 /* arrowDown.png in Resources */,
 				ED6A942B1F5FED8E009ED956 /* calendarIcon.png in Resources */,
 				ED6A942C1F5FED8E009ED956 /* cartActive.png in Resources */,
